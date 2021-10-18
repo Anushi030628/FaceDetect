@@ -1,0 +1,141 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.facerecognition"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\acshankara\AndroidStudioProjects\Face Recognition Demo\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\acshankara\AndroidStudioProjects\Face Recognition Demo\app\src\main\AndroidManifest.xml
+10    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+11    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\08de808396c5e29217d32d083411c3cd\jetified-transport-backend-cct-2.2.2\AndroidManifest.xml:25:5-79
+12-->[com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\08de808396c5e29217d32d083411c3cd\jetified-transport-backend-cct-2.2.2\AndroidManifest.xml:25:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->[com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\08de808396c5e29217d32d083411c3cd\jetified-transport-backend-cct-2.2.2\AndroidManifest.xml:26:5-67
+13-->[com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\08de808396c5e29217d32d083411c3cd\jetified-transport-backend-cct-2.2.2\AndroidManifest.xml:26:22-64
+14
+15    <application
+15-->C:\Users\acshankara\AndroidStudioProjects\Face Recognition Demo\app\src\main\AndroidManifest.xml:4:5-17:19
+16        android:allowBackup="true"
+16-->C:\Users\acshankara\AndroidStudioProjects\Face Recognition Demo\app\src\main\AndroidManifest.xml:5:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\32f4f944aca9213f676acf60269714d3\core-1.1.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:extractNativeLibs="false"
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\acshankara\AndroidStudioProjects\Face Recognition Demo\app\src\main\AndroidManifest.xml:6:9-43
+21        android:label="@string/app_name"
+21-->C:\Users\acshankara\AndroidStudioProjects\Face Recognition Demo\app\src\main\AndroidManifest.xml:7:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\Users\acshankara\AndroidStudioProjects\Face Recognition Demo\app\src\main\AndroidManifest.xml:8:9-54
+23        android:supportsRtl="true"
+23-->C:\Users\acshankara\AndroidStudioProjects\Face Recognition Demo\app\src\main\AndroidManifest.xml:9:9-35
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme" >
+25-->C:\Users\acshankara\AndroidStudioProjects\Face Recognition Demo\app\src\main\AndroidManifest.xml:10:9-40
+26        <activity android:name="com.example.facerecognition.MainActivity" >
+26-->C:\Users\acshankara\AndroidStudioProjects\Face Recognition Demo\app\src\main\AndroidManifest.xml:11:9-16:20
+26-->C:\Users\acshankara\AndroidStudioProjects\Face Recognition Demo\app\src\main\AndroidManifest.xml:11:19-74
+27            <intent-filter>
+27-->C:\Users\acshankara\AndroidStudioProjects\Face Recognition Demo\app\src\main\AndroidManifest.xml:12:13-15:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->C:\Users\acshankara\AndroidStudioProjects\Face Recognition Demo\app\src\main\AndroidManifest.xml:13:17-69
+28-->C:\Users\acshankara\AndroidStudioProjects\Face Recognition Demo\app\src\main\AndroidManifest.xml:13:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->C:\Users\acshankara\AndroidStudioProjects\Face Recognition Demo\app\src\main\AndroidManifest.xml:14:17-77
+30-->C:\Users\acshankara\AndroidStudioProjects\Face Recognition Demo\app\src\main\AndroidManifest.xml:14:27-74
+31            </intent-filter>
+32        </activity>
+33
+34        <service
+34-->[com.google.android.gms:play-services-mlkit-face-detection:16.0.0] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\8c9202141c4ef316aa948d8fbdcfce6a\jetified-play-services-mlkit-face-detection-16.0.0\AndroidManifest.xml:9:9-15:19
+35            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+35-->[com.google.android.gms:play-services-mlkit-face-detection:16.0.0] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\8c9202141c4ef316aa948d8fbdcfce6a\jetified-play-services-mlkit-face-detection-16.0.0\AndroidManifest.xml:10:13-91
+36            android:directBootAware="true"
+36-->[com.google.mlkit:common:16.0.0] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\3c5a6ce00e4cb87928f4101ef7b4ee34\jetified-common-16.0.0\AndroidManifest.xml:17:13-43
+37            android:exported="false" >
+37-->[com.google.android.gms:play-services-mlkit-face-detection:16.0.0] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\8c9202141c4ef316aa948d8fbdcfce6a\jetified-play-services-mlkit-face-detection-16.0.0\AndroidManifest.xml:11:13-37
+38            <meta-data
+38-->[com.google.android.gms:play-services-mlkit-face-detection:16.0.0] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\8c9202141c4ef316aa948d8fbdcfce6a\jetified-play-services-mlkit-face-detection-16.0.0\AndroidManifest.xml:12:13-14:85
+39                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+39-->[com.google.android.gms:play-services-mlkit-face-detection:16.0.0] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\8c9202141c4ef316aa948d8fbdcfce6a\jetified-play-services-mlkit-face-detection-16.0.0\AndroidManifest.xml:13:17-114
+40                android:value="com.google.firebase.components.ComponentRegistrar" />
+40-->[com.google.android.gms:play-services-mlkit-face-detection:16.0.0] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\8c9202141c4ef316aa948d8fbdcfce6a\jetified-play-services-mlkit-face-detection-16.0.0\AndroidManifest.xml:14:17-82
+41            <meta-data
+41-->[com.google.mlkit:vision-common:16.0.0] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\ac4b4977e5f0438a96fe384c4f8ea139\jetified-vision-common-16.0.0\AndroidManifest.xml:12:13-14:85
+42                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+42-->[com.google.mlkit:vision-common:16.0.0] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\ac4b4977e5f0438a96fe384c4f8ea139\jetified-vision-common-16.0.0\AndroidManifest.xml:13:17-124
+43                android:value="com.google.firebase.components.ComponentRegistrar" />
+43-->[com.google.mlkit:vision-common:16.0.0] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\ac4b4977e5f0438a96fe384c4f8ea139\jetified-vision-common-16.0.0\AndroidManifest.xml:14:17-82
+44            <meta-data
+44-->[com.google.mlkit:common:16.0.0] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\3c5a6ce00e4cb87928f4101ef7b4ee34\jetified-common-16.0.0\AndroidManifest.xml:20:13-22:85
+45                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+45-->[com.google.mlkit:common:16.0.0] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\3c5a6ce00e4cb87928f4101ef7b4ee34\jetified-common-16.0.0\AndroidManifest.xml:21:17-120
+46                android:value="com.google.firebase.components.ComponentRegistrar" />
+46-->[com.google.mlkit:common:16.0.0] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\3c5a6ce00e4cb87928f4101ef7b4ee34\jetified-common-16.0.0\AndroidManifest.xml:22:17-82
+47        </service>
+48
+49        <provider
+49-->[com.google.mlkit:common:16.0.0] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\3c5a6ce00e4cb87928f4101ef7b4ee34\jetified-common-16.0.0\AndroidManifest.xml:9:9-13:38
+50            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+50-->[com.google.mlkit:common:16.0.0] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\3c5a6ce00e4cb87928f4101ef7b4ee34\jetified-common-16.0.0\AndroidManifest.xml:10:13-78
+51            android:authorities="com.example.facerecognition.mlkitinitprovider"
+51-->[com.google.mlkit:common:16.0.0] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\3c5a6ce00e4cb87928f4101ef7b4ee34\jetified-common-16.0.0\AndroidManifest.xml:11:13-69
+52            android:exported="false"
+52-->[com.google.mlkit:common:16.0.0] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\3c5a6ce00e4cb87928f4101ef7b4ee34\jetified-common-16.0.0\AndroidManifest.xml:12:13-37
+53            android:initOrder="99" />
+53-->[com.google.mlkit:common:16.0.0] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\3c5a6ce00e4cb87928f4101ef7b4ee34\jetified-common-16.0.0\AndroidManifest.xml:13:13-35
+54
+55        <activity
+55-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\78e3b58a3860536f220dc138f4a2cba4\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+56            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+56-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\78e3b58a3860536f220dc138f4a2cba4\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+57            android:exported="false"
+57-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\78e3b58a3860536f220dc138f4a2cba4\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+58            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+58-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\78e3b58a3860536f220dc138f4a2cba4\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+59
+60        <meta-data
+60-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\6b9a3f54b7aeaa05beab7d746c4b9e08\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+61            android:name="com.google.android.gms.version"
+61-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\6b9a3f54b7aeaa05beab7d746c4b9e08\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+62            android:value="@integer/google_play_services_version" />
+62-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\6b9a3f54b7aeaa05beab7d746c4b9e08\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+63
+64        <service
+64-->[com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\08de808396c5e29217d32d083411c3cd\jetified-transport-backend-cct-2.2.2\AndroidManifest.xml:29:9-35:19
+65            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+65-->[com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\08de808396c5e29217d32d083411c3cd\jetified-transport-backend-cct-2.2.2\AndroidManifest.xml:30:13-103
+66            android:exported="false" >
+66-->[com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\08de808396c5e29217d32d083411c3cd\jetified-transport-backend-cct-2.2.2\AndroidManifest.xml:31:13-37
+67            <meta-data
+67-->[com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\08de808396c5e29217d32d083411c3cd\jetified-transport-backend-cct-2.2.2\AndroidManifest.xml:32:13-34:39
+68                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+68-->[com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\08de808396c5e29217d32d083411c3cd\jetified-transport-backend-cct-2.2.2\AndroidManifest.xml:33:17-94
+69                android:value="cct" />
+69-->[com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\08de808396c5e29217d32d083411c3cd\jetified-transport-backend-cct-2.2.2\AndroidManifest.xml:34:17-36
+70        </service>
+71        <service
+71-->[com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\59cd8fdc5a40c6b6d095c436b92a0e54\jetified-transport-runtime-2.2.2\AndroidManifest.xml:26:9-30:19
+72            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+72-->[com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\59cd8fdc5a40c6b6d095c436b92a0e54\jetified-transport-runtime-2.2.2\AndroidManifest.xml:27:13-117
+73            android:exported="false"
+73-->[com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\59cd8fdc5a40c6b6d095c436b92a0e54\jetified-transport-runtime-2.2.2\AndroidManifest.xml:28:13-37
+74            android:permission="android.permission.BIND_JOB_SERVICE" >
+74-->[com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\59cd8fdc5a40c6b6d095c436b92a0e54\jetified-transport-runtime-2.2.2\AndroidManifest.xml:29:13-69
+75        </service>
+76
+77        <receiver
+77-->[com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\59cd8fdc5a40c6b6d095c436b92a0e54\jetified-transport-runtime-2.2.2\AndroidManifest.xml:32:9-34:40
+78            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+78-->[com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\59cd8fdc5a40c6b6d095c436b92a0e54\jetified-transport-runtime-2.2.2\AndroidManifest.xml:33:13-132
+79            android:exported="false" />
+79-->[com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\acshankara\.gradle\caches\transforms-2\files-2.1\59cd8fdc5a40c6b6d095c436b92a0e54\jetified-transport-runtime-2.2.2\AndroidManifest.xml:34:13-37
+80    </application>
+81
+82</manifest>
